@@ -331,26 +331,23 @@
 # Todos son 5
 # Escribe un método llamado todos_son_5 que reciba un arreglo y devuelva true si todos los elementos son el número 5. Si hay al menos un elemento que no es 5 deberá retornar false.
 
-puts 'Comprobando si mi arreglo contiene solo cincos'
+# puts 'Comprobando si mi arreglo contiene solo cincos'
+# arr = [5,4,3,5]
+# arr_two = [5,5,5,5,5]
 
-arr = [5,4,3,5]
-arr_two = [5,5,5,5,5]
-
-def todos_son_5(arr)
-  son_5 = false
-  arr.each do |x|
-    if x.to_i == 5
-      son_5 = true
-    else 
-      son_5 = false
-      break
-    end
-  end
-  return son_5
-end
-
-
-puts arr.inspect
-puts todos_son_5(arr)
-puts arr_two.inspect
-puts todos_son_5(arr_two)
+# def todos_son_5(arr)
+#   son_5 = false
+#   arr.each do |x|
+#     if x.to_i == 5
+#       son_5 = true
+#     else 
+#       son_5 = false
+#       break
+#     end
+#   end
+#   return son_5
+# end
+# puts arr.inspect
+# puts todos_son_5(arr)
+# puts arr_two.inspect
+# puts todos_son_5(arr_two)
